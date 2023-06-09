@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        int current_account_balance = 400;
+        int currentAccountBalance = 400;
         int entrance = 2000;
 
         int bonus;
@@ -11,7 +11,7 @@ public class Main {
             bonus = 0;
         }
 
-        int balance = current_account_balance + entrance + bonus;
+        int balance = currentAccountBalance + entrance + bonus;
 
         System.out.println("Баланс вашего счета " + balance + " руб.");
 
